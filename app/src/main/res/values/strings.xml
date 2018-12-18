@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">GymToday1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">GymToday</string>
+    <string name="nav_header_subtitle">GymToday.info@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dietas">DietasActivity</string>
+    <string name="title_activity_ejercicios">EjerciciosActivity</string>
+    <string name="title_activity_ejercicios_espalda">EjerciciosEspaldaActivity</string>
+    <string name="title_activity_ejercicios_lunes">EjerciciosLunesActivity</string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+    <string name="title_activity_kcal_1200_">KCAL_1200_Activity</string>
+
+    <string name="favoritos">Favoritos</string>
+    <string name="ejercicios">Ejercicios</string>
+    <string name="rutina">Rutina</string>
+    <string name="dietas">Dietas</string>
+
+    <!-- EJERCICIOS -->
+    <string name="pectoral">Pectoral</string>
+    <string name="espalda">Espalda</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="espalda_baja">Espalda Inferior</string>
+    <string name="trapecio">Trapecio</string>
+    <string name="antebrazo">Antebrazo</string>
+    <string name="abdominales">Abdominales</string>
+    <string name="hombro">Hombro</string>
+    <string name="nalgas">Nalgas</string>
+    <string name="frontal_muslo">Frontal Muslo</string>
+    <string name="posterior_muslo">Posterior Muslo</string>
+    <string name="pnatorrilla">Pantorrilla</string>
+
+    <string name="dominada_m_agarre_amplio">Dominadas Maquina, agarre amplio.</string>
+
+    <!-- DIETAS -->
+    <string name="kcal1200">1200 kcal</string>
+    <string name="kcal1500">1500 kcal</string>
+    <string name="kcal1800">1800 kcal</string>
+    <string name="kcal2000">2000 kcal</string>
+    <string name="kcal2200">2200 kcal</string>
+    <string name="kcal2500">2500 kcal</string>
+    <string name="kcal2800">2800 kcal</string>
+    <string name="kcal3000">3000 kcal</string>
+    <string name="kcal3200">32000 kcal</string>
+
+    <!-- RUTINAS -->
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="vierne">Viernes</string>
+    <string name="sabado">Sabado</string>
+    <string name="domingo">Domingo</string>
+    <string name="title_activity_rutina">RutinaActivity</string>
+</resources>
