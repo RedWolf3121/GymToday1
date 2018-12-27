@@ -51,6 +51,13 @@
     <string name="compartir">Compartir</string>
     <string name="comunicacion">Comunicacion</string>
 
+    <!-- CONTENIDO 1200 -->
+    <string name="content_desayuno">
+        Desayuno \n \t un vaso de leche desnatada, \n \t 20 g de pan untados con tomate y aceite de oliva.\n
+        Media mañana \n \t 100 g de melocotón.\n
+        Almuerzo \n \t 200 g de puerros, \n \t 100 g de carne de pollo, \n \t 30 g de pan, \n \t 1 fruta del tiempo.\n
+        Media tarde \n \t 200 cc de leche desnatada.\n
+        Cena \n \t sopa de verduras, \n \t 65 g de pescado azul, \n \t 30 g de pan, \n \t una fruta del tiempo.</string>
 
     <string name="app_name">GymToday</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
