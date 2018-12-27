@@ -73,4 +73,5 @@
     <string name="title_activity_favourites">FavouritesActivity</string>
     <string name="title_activity_kcal_1200_">KCAL_1200_Activity</string>
     <string name="title_activity_rutina">RutinaActivity</string>
+    <string name="title_activity_ejercicio1_espalda">Ejercicio1EspaldaActivity</string>
 </resources>

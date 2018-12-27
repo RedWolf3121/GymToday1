@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crono"
+            android:icon="@drawable/ic_timer_black_24dp"
+            android:title="@string/cronometro" />
+        <item
+            android:id="@+id/nav_Calendario"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="@string/calendario" />
+        <item
+            android:id="@+id/nav_Notas"
+            android:icon="@drawable/ic_note_black_24dp"
+            android:title="@string/notas" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/camara" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/galeria" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/configuracion" />
+    </group>
+
+    <item android:title="@string/comunicacion">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/compartir" />
+        </menu>
+    </item>
+
+</menu>
