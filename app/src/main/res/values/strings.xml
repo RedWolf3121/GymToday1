@@ -1,18 +1,4 @@
 <resources>
-    <string name="app_name">GymToday</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">GymToday</string>
-    <string name="nav_header_subtitle">GymToday.info@gmail.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_dietas">DietasActivity</string>
-    <string name="title_activity_ejercicios">EjerciciosActivity</string>
-    <string name="title_activity_ejercicios_espalda">EjerciciosEspaldaActivity</string>
-    <string name="title_activity_ejercicios_lunes">EjerciciosLunesActivity</string>
-    <string name="title_activity_favourites">FavouritesActivity</string>
-    <string name="title_activity_kcal_1200_">KCAL_1200_Activity</string>
-
     <string name="favoritos">Favoritos</string>
     <string name="ejercicios">Ejercicios</string>
     <string name="rutina">Rutina</string>
@@ -54,5 +40,38 @@
     <string name="vierne">Viernes</string>
     <string name="sabado">Sabado</string>
     <string name="domingo">Domingo</string>
+
+    <!-- MENU DESPLEGABLE -->
+    <string name="cronometro">Cronometro</string>
+    <string name="notas">Notas</string>
+    <string name="calendario">Calendario</string>
+    <string name="camara">Camara</string>
+    <string name="galeria">Galeria</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="compartir">Compartir</string>
+    <string name="comunicacion">Comunicacion</string>
+
+    <!-- CONTENIDO 1200 -->
+    <string name="content_desayuno">
+        Desayuno \n \t un vaso de leche desnatada, \n \t 20 g de pan untados con tomate y aceite de oliva.\n
+        Media mañana \n \t 100 g de melocotón.\n
+        Almuerzo \n \t 200 g de puerros, \n \t 100 g de carne de pollo, \n \t 30 g de pan, \n \t 1 fruta del tiempo.\n
+        Media tarde \n \t 200 cc de leche desnatada.\n
+        Cena \n \t sopa de verduras, \n \t 65 g de pescado azul, \n \t 30 g de pan, \n \t una fruta del tiempo.</string>
+
+    <string name="app_name">GymToday</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">GymToday</string>
+    <string name="nav_header_subtitle">GymToday.info@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dietas">DietasActivity</string>
+    <string name="title_activity_ejercicios">EjerciciosActivity</string>
+    <string name="title_activity_ejercicios_espalda">EjerciciosEspaldaActivity</string>
+    <string name="title_activity_ejercicios_lunes">EjerciciosLunesActivity</string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+    <string name="title_activity_kcal_1200_">KCAL_1200_Activity</string>
     <string name="title_activity_rutina">RutinaActivity</string>
+    <string name="title_activity_ejercicio1_espalda">Ejercicio1EspaldaActivity</string>
 </resources>

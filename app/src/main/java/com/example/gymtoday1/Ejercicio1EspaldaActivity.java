@@ -1,12 +1,8 @@
 package com.example.gymtoday1;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,19 +13,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.ArrayList;
-
-public class EjerciciosEspaldaActivity extends AppCompatActivity
+public class Ejercicio1EspaldaActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
-    private RecyclerView rvEspalda;
-    private GridLayoutManager glm;
-    private EspaldaAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicios_espalda);
+        setContentView(R.layout.activity_ejercicio1_espalda);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -50,36 +40,6 @@ public class EjerciciosEspaldaActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        rvEspalda = (RecyclerView) findViewById(R.id.rv_espalda);
-
-        glm = new GridLayoutManager(this, 1);
-        rvEspalda.setLayoutManager(glm);
-        adapter = new EspaldaAdapter(dataSet());
-        rvEspalda.setAdapter(adapter);
-
-    }
-    private ArrayList<Espalda> dataSet() {
-        ArrayList<Espalda> data = new ArrayList<>();
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        return data;
     }
 
     @Override
@@ -95,7 +55,7 @@ public class EjerciciosEspaldaActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.ejercicios_espalda, menu);
+        getMenuInflater().inflate(R.menu.ejercicio1_espalda, menu);
         return true;
     }
 
@@ -139,4 +99,3 @@ public class EjerciciosEspaldaActivity extends AppCompatActivity
         return true;
     }
 }
-
