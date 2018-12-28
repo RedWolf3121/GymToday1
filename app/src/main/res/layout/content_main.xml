@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="68dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
@@ -42,8 +42,8 @@
         android:id="@+id/cardEjercicios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginTop="108dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ejercicios"
-                android:textColor="@color/textn"/>
+                android:textColor="@color/textn" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -72,13 +72,13 @@
         android:id="@+id/cardRutina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardFavourite"
-        app:layout_constraintVertical_bias="0.07"
+        app:layout_constraintVertical_bias="0.066"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
@@ -91,7 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rutina"
-                android:textColor="@color/textn"/>
+                android:textColor="@color/textn" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -105,13 +105,13 @@
         android:id="@+id/cardDietas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="80dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardEjercicios"
-        app:layout_constraintVertical_bias="0.069"
+        app:layout_constraintVertical_bias="0.066"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
@@ -124,7 +124,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/dietas"
-                android:textColor="@color/textn"/>
+                android:textColor="@color/textn" />
 
             <ImageView
                 android:layout_width="wrap_content"

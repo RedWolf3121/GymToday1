@@ -59,6 +59,12 @@
         Media tarde \n \t 200 cc de leche desnatada.\n
         Cena \n \t sopa de verduras, \n \t 65 g de pescado azul, \n \t 30 g de pan, \n \t una fruta del tiempo.</string>
 
+    <!-- CRONOMETRO -->
+    <string name="hint_minute">Minute</string>
+    <string name="message_minutes">Please Enter Minutes...</string>
+
+
+
     <string name="app_name">GymToday</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -74,4 +80,5 @@
     <string name="title_activity_kcal_1200_">KCAL_1200_Activity</string>
     <string name="title_activity_rutina">RutinaActivity</string>
     <string name="title_activity_ejercicio1_espalda">Ejercicio1EspaldaActivity</string>
+    <string name="title_activity_cronometro">CronometroActivity</string>
 </resources>

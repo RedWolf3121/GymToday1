@@ -6,4 +6,7 @@
     <color name="textn">#000000</color>
     <color name="barraFav">#378ec9</color>
     <color name="blanco">#ffffff</color>
+    <color name="colorYellow">#F5FA55</color>
+    <color name="colorBackground">#151B29</color>
+
 </resources>
