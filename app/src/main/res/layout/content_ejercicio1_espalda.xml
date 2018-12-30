@@ -9,27 +9,29 @@
     tools:showIn="@layout/app_bar_ejercicio1_espalda"
     android:orientation="vertical">
 
-    <VideoView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_margin="10dp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="10dp"
-        tools:ignore="MissingConstraints" />
+            <fragment
+                android:id="@+id/youtubeplayerfragment"
+                android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/textn"
-        android:textStyle="bold"
-        android:text="Espalda"
-        android:layout_marginStart="10dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/textn"
-        android:textStyle="bold"
-        android:text="Descripcion delejercicio "
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textn"
+                android:textStyle="bold"
+                android:text="Espalda"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textn"
+                android:textStyle="bold"
+                android:text="Descripcion delejercicio "
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
 </LinearLayout>
