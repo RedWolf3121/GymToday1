@@ -61,6 +61,10 @@
         <activity
             android:name=".CalendarioActivity"
             android:label="@string/title_activity_calendario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotasActivity"
+            android:label="@string/title_activity_notas"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
