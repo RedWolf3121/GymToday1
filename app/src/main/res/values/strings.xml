@@ -64,7 +64,6 @@
     <string name="message_minutes">Please Enter Minutes...</string>
 
 
-
     <string name="app_name">GymToday</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -81,4 +80,5 @@
     <string name="title_activity_rutina">RutinaActivity</string>
     <string name="title_activity_ejercicio1_espalda">Ejercicio1EspaldaActivity</string>
     <string name="title_activity_cronometro">CronometroActivity</string>
+    <string name="title_activity_calendario">CalendarioActivity</string>
 </resources>

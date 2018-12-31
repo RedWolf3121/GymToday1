@@ -1,11 +1,8 @@
 package com.example.gymtoday1;
 
-import android.content.ClipData;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v7.widget.CardView;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,13 +13,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity
+public class CalendarioActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_calendario);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -43,40 +40,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        CardView favoritos = (CardView) findViewById(R.id.cardFavourite);
-        favoritos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FavouritesActivity.class);
-                startActivity(intent);
-            }
-        });
-        CardView ejercicios = (CardView) findViewById(R.id.cardEjercicios);
-        ejercicios.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, EjerciciosActivity.class);
-                startActivity(intent);
-            }
-        });
-        CardView dietas = (CardView) findViewById(R.id.cardDietas);
-        dietas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DietasActivity.class);
-                startActivity(intent);
-            }
-        });
-        CardView rutina = (CardView) findViewById(R.id.cardRutina);
-        rutina.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RutinaActivity.class);
-                startActivity(intent);
-            }
-        });
-
     }
 
     @Override
@@ -92,7 +55,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.calendario, menu);
         return true;
     }
 
@@ -120,12 +83,8 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_crono) {
-            Intent intent = new Intent(MainActivity.this, CronometroActivity.class);
-            startActivity(intent);
 
         } else if (id == R.id.nav_Calendario) {
-            Intent intent = new Intent(MainActivity.this, CalendarioActivity.class);
-            startActivity(intent);
 
         } else if (id == R.id.nav_Notas) {
 
@@ -136,7 +95,6 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         }
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

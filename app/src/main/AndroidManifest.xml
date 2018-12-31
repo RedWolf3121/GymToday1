@@ -57,6 +57,10 @@
         <activity
             android:name=".CronometroActivity"
             android:label="@string/title_activity_cronometro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalendarioActivity"
+            android:label="@string/title_activity_calendario"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
