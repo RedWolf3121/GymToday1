@@ -8,5 +8,6 @@
     <color name="blanco">#ffffff</color>
     <color name="colorYellow">#F5FA55</color>
     <color name="colorBackground">#151B29</color>
+    <color name="floatButton">#08e6be</color>
 
 </resources>
