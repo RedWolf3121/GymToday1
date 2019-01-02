@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NotasActivity">
+    tools:context=".CrearNotaActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_notas" />
+    <include layout="@layout/content_crear_nota" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -29,8 +29,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:backgroundTint="@color/floatButton"
-        app:srcCompat="@drawable/ic_add_black_24dp"
+        app:srcCompat="@drawable/ic_save_black_24dp"
         tools:ignore="VectorDrawableCompat" />
-
 
 </android.support.design.widget.CoordinatorLayout>
