@@ -42,8 +42,10 @@ public class Ejercicio1EspaldaActivity extends AppCompatActivity implements Navi
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_TEXT, "GymToday");
+                startActivity(Intent.createChooser(intent, "Share with"));
             }
         });
 
