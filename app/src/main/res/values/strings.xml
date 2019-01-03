@@ -96,4 +96,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_rutina_lunes">RutinaLunesActivity</string>
+    <string name="action_settings">Settings</string>
 </resources>

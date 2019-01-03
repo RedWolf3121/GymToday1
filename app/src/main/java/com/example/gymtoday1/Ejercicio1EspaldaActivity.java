@@ -91,7 +91,8 @@ public class Ejercicio1EspaldaActivity extends AppCompatActivity implements Navi
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent = new Intent(Ejercicio1EspaldaActivity.this, LoginActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

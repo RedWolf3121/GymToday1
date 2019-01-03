@@ -1,6 +1,8 @@
 package com.example.gymtoday1;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -74,21 +76,36 @@ public class CalendarioActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivityForResult(intent,0);
+
+            // Sólo se lanzará el activity si hay apps disponibles en el sistema para ejecutarla.
+            if (intent.resolveActivity(getPackageManager()) != null) {
+                startActivity(intent);
+            }
+
         } else if (id == R.id.nav_crono) {
+            Intent intent = new Intent(CalendarioActivity.this, CronometroActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_Calendario) {
+            Intent intent = new Intent(CalendarioActivity.this, CalendarioActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_Notas) {
-
-        } else if (id == R.id.nav_gallery) {
-
+            Intent intent = new Intent(CalendarioActivity.this, NotasActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_home) {
+            Intent intent = new Intent(CalendarioActivity.this, MainActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
-
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT, "GymToday");
+            startActivity(Intent.createChooser(intent, "Share with"));
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

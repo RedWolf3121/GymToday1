@@ -72,8 +72,8 @@ public class KCAL_1200_Activity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
-        }
+            Intent intent = new Intent(KCAL_1200_Activity.this, LoginActivity.class);
+            startActivity(intent);        }
 
         return super.onOptionsItemSelected(item);
     }
