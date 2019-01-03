@@ -99,7 +99,8 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -131,8 +132,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_Notas) {
             Intent intent = new Intent(MainActivity.this, NotasActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_gallery) {
-
+        } else if (id == R.id.nav_home) {
+            Intent intent = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {

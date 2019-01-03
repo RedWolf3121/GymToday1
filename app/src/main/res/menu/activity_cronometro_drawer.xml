@@ -5,6 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/inicio" />
+        <item
             android:id="@+id/nav_crono"
             android:icon="@drawable/ic_timer_black_24dp"
             android:title="@string/cronometro" />
@@ -20,10 +24,7 @@
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/camara" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/galeria" />
+
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_settings_black_24dp"
