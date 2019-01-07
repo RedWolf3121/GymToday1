@@ -40,10 +40,6 @@
             android:label="@string/title_activity_ejercicios_espalda"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".EjerciciosLunesActivity"
-            android:label="@string/title_activity_ejercicios_lunes"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".FavouritesActivity"
             android:label="@string/title_activity_favourites"
             android:theme="@style/AppTheme.NoActionBar" />
