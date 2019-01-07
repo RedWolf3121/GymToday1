@@ -5,9 +5,13 @@
     <color name="colorAccent">#FF4081</color>
     <color name="textn">#000000</color>
     <color name="barraFav">#378ec9</color>
+    <color name="cardEjercicios">#a8dbf2</color>
     <color name="blanco">#ffffff</color>
     <color name="colorYellow">#F5FA55</color>
-    <color name="colorBackground">#151B29</color>
+    <color name="colorBackgroundCrono">#c9d5f1</color>
     <color name="floatButton">#08e6be</color>
+    <color name="cardNotas">#fcea91</color>
+    <color name="cardDieta">#43df9e</color>
+    <color name="cardRutina">#1784b3</color>
 
 </resources>

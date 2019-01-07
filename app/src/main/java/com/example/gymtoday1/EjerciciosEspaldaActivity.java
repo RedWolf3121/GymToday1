@@ -53,24 +53,19 @@ public class EjerciciosEspaldaActivity extends AppCompatActivity
     }
     private ArrayList<Espalda> dataSet() {
         ArrayList<Espalda> data = new ArrayList<>();
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
-        data.add(new Espalda("Radioactive", R.drawable.lat_bar_pullups_overhand_medium_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Dominadas con Máquina Sostenida,Agarre Amplio", R.drawable.lat_machine_supported_pullups_underhand_wide_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Dominadas Agarre Amplio", R.drawable.lat_bar_pullups_underhand_wide_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Espalda a Tórax con Cable-Polea, Agarre Cerrado", R.drawable.lat_machine_chest_pulldown_overhand_close_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Espalda con Cable-Polea Detras del Cuello, Agarre Amplio", R.drawable.lat_machine_chest_pulldown_overhand_wide_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Espalda con Cable-Polea a Cuello, Agarre Amplio", R.drawable.lat_machine_chest_pulldown_overhand_wide_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Remo con Barra de pesas Inclinado", R.drawable.lat_barbell_row_bent_over_underhand_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Remo con Cable-Polea (Sentado)", R.drawable.lat_low_cable_row_seated, R.drawable.estrella_silueta));
+        data.add(new Espalda("Remo con Cable-Polea (De Pie)", R.drawable.lat_low_cable_row_standing_bent_over, R.drawable.estrella_silueta));
+        data.add(new Espalda("Remo con Maquina de Palanca (Sentado)", R.drawable.lat_leverage_machine_row_seated, R.drawable.estrella_silueta));
+        data.add(new Espalda("Remo con Maquina de Smith (Inclinado de Pie)", R.drawable.lat_smith_machine_row_bent_over, R.drawable.estrella_silueta));
+        data.add(new Espalda("Remo en Banco Plano con Barra de Pesas", R.drawable.lat_high_bench_barbell_row_lying, R.drawable.estrella_silueta));
+        data.add(new Espalda("Step up con Barra de Pesas, (Inclinado de Pie)", R.drawable.lat_barbell_tipup_bent_over_close_grip, R.drawable.estrella_silueta));
+        data.add(new Espalda("Remo con Banco plano Alto con Mancuernas", R.drawable.lat_high_bench_dumbbell_row_lying, R.drawable.estrella_silueta));
         return data;
     }
 

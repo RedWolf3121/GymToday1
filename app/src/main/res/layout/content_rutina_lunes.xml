@@ -29,7 +29,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardEjercicios">
 
                     <TextView
                         android:id="@+id/nombre"
@@ -70,7 +71,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardEjercicios">
 
                     <TextView
                         android:id="@+id/nombre1"
@@ -111,7 +113,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardEjercicios">
 
                     <TextView
                         android:id="@+id/nombre2"
@@ -152,7 +155,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardEjercicios">
 
                     <TextView
                         android:id="@+id/nombre3"
@@ -193,7 +197,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardEjercicios">
 
                     <TextView
                         android:id="@+id/nombre4"
@@ -234,7 +239,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardEjercicios">
 
                     <TextView
                         android:id="@+id/nombre5"
@@ -275,7 +281,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardEjercicios">
 
                     <TextView
                         android:id="@+id/nombre6"
