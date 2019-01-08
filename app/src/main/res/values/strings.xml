@@ -20,6 +20,8 @@
     <string name="pnatorrilla">Pantorrilla</string>
 
     <string name="dominada_m_agarre_amplio">Dominadas Maquina, agarre amplio.</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="Descripcion_Dominadas_Maquina_agarre_amplio">Con este ejercicio podras realizar dominadas si no eres capaz de realizarlas sin ayuda ya que con esta maquina se reduce el peso a levantar.</string>
 
     <!-- DIETAS -->
     <string name="kcal1200">1200 kcal</string>
@@ -71,18 +73,18 @@
     <string name="nav_header_subtitle">GymToday.info@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_user">Usuario</string>
-    <string name="title_activity_dietas">DietasActivity</string>
-    <string name="title_activity_ejercicios">EjerciciosActivity</string>
-    <string name="title_activity_ejercicios_espalda">EjerciciosEspaldaActivity</string>
-    <string name="title_activity_ejercicios_lunes">EjerciciosLunesActivity</string>
-    <string name="title_activity_favourites">FavouritesActivity</string>
-    <string name="title_activity_kcal_1200_">KCAL_1200_Activity</string>
-    <string name="title_activity_rutina">RutinaActivity</string>
-    <string name="title_activity_ejercicio1_espalda">Ejercicio1EspaldaActivity</string>
-    <string name="title_activity_cronometro">CronometroActivity</string>
-    <string name="title_activity_calendario">CalendarioActivity</string>
-    <string name="title_activity_notas">NotasActivity</string>
-    <string name="title_activity_crear_nota">CrearNotaActivity</string>
+    <string name="title_activity_dietas">Dietas</string>
+    <string name="title_activity_ejercicios">Ejercicios</string>
+    <string name="title_activity_ejercicios_espalda">Ejercicios Espalda</string>
+    <string name="title_activity_ejercicios_lunes">Ejercicios Lunes</string>
+    <string name="title_activity_favourites">Favoritos</string>
+    <string name="title_activity_kcal_1200_">1200 Calorias</string>
+    <string name="title_activity_rutina">Rutina</string>
+    <string name="title_activity_ejercicio1_espalda">Ejercicio</string>
+    <string name="title_activity_cronometro">Cronometro</string>
+    <string name="title_activity_calendario">Calendario</string>
+    <string name="title_activity_notas">Notas</string>
+    <string name="title_activity_crear_nota">Nueva Nota</string>
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

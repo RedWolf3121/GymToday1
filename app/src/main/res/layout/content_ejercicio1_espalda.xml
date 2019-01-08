@@ -24,14 +24,21 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/textn"
                 android:textStyle="bold"
-                android:text="Espalda"
+                android:text="@string/dominada_m_agarre_amplio"
                 android:layout_marginStart="10dp"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/textn"
                 android:textStyle="bold"
-                android:text="Descripcion delejercicio "
-                android:layout_marginStart="10dp"
+                android:text="@string/Descripcion"
+                android:layout_marginStart="15dp"
                 android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/textn"
+                android:text="@string/Descripcion_Dominadas_Maquina_agarre_amplio" />
 </LinearLayout>

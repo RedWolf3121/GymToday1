@@ -28,7 +28,7 @@ public class Ejercicio1EspaldaActivity extends AppCompatActivity implements Navi
     public static final String DEVELOPER_KEY = "AIzaSyB0xO30o-28S0YxzS60dtUS-vNrXxPy54c";
 
     // YouTube video id
-    public static final String YOUTUBE_VIDEO_CODE = "gbPiTAwAEDo";
+    public static final String YOUTUBE_VIDEO_CODE = "gkbMyzclOjc";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
     YouTubePlayerFragment myYouTubePlayerFragment;
 
