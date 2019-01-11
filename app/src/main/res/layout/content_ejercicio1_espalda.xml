@@ -7,7 +7,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Ejercicio1EspaldaActivity"
     tools:showIn="@layout/app_bar_ejercicio1_espalda"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/detectGesture">
 
             <fragment
                 android:id="@+id/youtubeplayerfragment"
