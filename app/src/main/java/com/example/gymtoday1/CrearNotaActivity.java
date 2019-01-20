@@ -48,10 +48,7 @@ public class CrearNotaActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        LinearLayout detectGesture = findViewById(R.id.detectGesture);
-        mDetector = new GestureDetector(this, new CrearNotaActivity.MyGestureListener());
 
-        detectGesture.setOnTouchListener(touchListener);
     }
 
     @Override

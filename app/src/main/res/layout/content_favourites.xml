@@ -58,14 +58,17 @@
                                 android:layout_marginStart="20dp"
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
+
                             <ImageView
                                 android:id="@+id/imgfavE"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -113,13 +116,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavP"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav2"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -167,13 +172,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavB"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav3"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -221,14 +228,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavT"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav4"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
-
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
                         </RelativeLayout>
 
                     </android.support.v7.widget.CardView>
@@ -275,13 +283,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavTRA"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav5"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -329,14 +339,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavH"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav6"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
-
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
                         </RelativeLayout>
 
                     </android.support.v7.widget.CardView>
@@ -383,13 +394,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavANT"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav7"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -437,13 +450,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavABD"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav8"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -491,13 +506,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavEI"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav9"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -545,14 +562,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavNAL"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav10"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
-
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
                         </RelativeLayout>
 
                     </android.support.v7.widget.CardView>
@@ -599,13 +617,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavFM"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav11"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -653,13 +673,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavPM"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav12"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
 
                         </RelativeLayout>
 
@@ -706,14 +728,15 @@
                                 android:src="@drawable/dominada_m_agarre_amplio" />
 
                             <ImageView
-                                android:id="@+id/imgfavPAN"
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
+                                android:id="@+id/imgfav13"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
                                 android:layout_marginEnd="12dp"
-                                android:src="@drawable/estrella_silueta" />
-
+                                android:src="@drawable/estrella_silueta"
+                                android:clickable="true"
+                                android:padding="5dp"/>
                         </RelativeLayout>
 
                     </android.support.v7.widget.CardView>

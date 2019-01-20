@@ -15,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -44,6 +45,98 @@ public class FavouritesActivity extends AppCompatActivity
         mDetector = new GestureDetector(this, new MyGestureListener());
 
         detectGesture.setOnTouchListener(touchListener);
+
+        final ImageView imgFavorite = (ImageView) findViewById(R.id.imgfavE);
+        imgFavorite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    imgFavorite.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite2 = (ImageView) findViewById(R.id.imgfav2);
+        imgFavorite2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite2.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite3 = (ImageView) findViewById(R.id.imgfav3);
+        imgFavorite3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite3.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite4 = (ImageView) findViewById(R.id.imgfav4);
+        imgFavorite4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite4.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite5 = (ImageView) findViewById(R.id.imgfav5);
+        imgFavorite5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite5.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite6 = (ImageView) findViewById(R.id.imgfav6);
+        imgFavorite6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite6.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite7 = (ImageView) findViewById(R.id.imgfav7);
+        imgFavorite7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite7.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite8 = (ImageView) findViewById(R.id.imgfav8);
+        imgFavorite8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite8.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite9 = (ImageView) findViewById(R.id.imgfav9);
+        imgFavorite9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite9.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite10 = (ImageView) findViewById(R.id.imgfav10);
+        imgFavorite10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite10.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite11 = (ImageView) findViewById(R.id.imgfav11);
+        imgFavorite11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite11.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite12 = (ImageView) findViewById(R.id.imgfav12);
+        imgFavorite12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite12.setImageResource(R.drawable.estrella_color);
+            }
+        });
+        final ImageView imgFavorite13 = (ImageView) findViewById(R.id.imgfav13);
+        imgFavorite13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgFavorite13.setImageResource(R.drawable.estrella_color);
+            }
+        });
     }
 
     @Override
