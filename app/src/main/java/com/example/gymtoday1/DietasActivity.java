@@ -47,6 +47,70 @@ public class DietasActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+        CardView dietas9 = (CardView) findViewById(R.id.dieta2);
+        dietas9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
+        CardView dietas2 = (CardView) findViewById(R.id.dieta3);
+        dietas2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
+        CardView dietas3 = (CardView) findViewById(R.id.dieta4);
+        dietas3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
+        CardView dietas4 = (CardView) findViewById(R.id.dieta5);
+        dietas4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
+        CardView dietas5 = (CardView) findViewById(R.id.dieta6);
+        dietas5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
+        CardView dietas6 = (CardView) findViewById(R.id.dieta7);
+        dietas6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
+        CardView dietas7 = (CardView) findViewById(R.id.dieta8);
+        dietas7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
+        CardView dietas8 = (CardView) findViewById(R.id.dieta9);
+        dietas8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DietasActivity.this, KCAL_1200_Activity.class);
+                startActivity(intent);
+            }
+        });
 
         LinearLayout detectGesture = findViewById(R.id.detectGesture);
         mDetector = new GestureDetector(this, new DietasActivity.MyGestureListener());

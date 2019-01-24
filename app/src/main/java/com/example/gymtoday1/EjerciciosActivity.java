@@ -48,6 +48,107 @@ public class EjerciciosActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+        CardView ejercicios1 = (CardView) findViewById(R.id.pectoral);
+        ejercicios1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios2 = (CardView) findViewById(R.id.biceps);
+        ejercicios2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios3 = (CardView) findViewById(R.id.triceps);
+        ejercicios3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios4 = (CardView) findViewById(R.id.trap);
+        ejercicios4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios5 = (CardView) findViewById(R.id.homb);
+        ejercicios5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios6 = (CardView) findViewById(R.id.ante);
+        ejercicios6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios7 = (CardView) findViewById(R.id.abs);
+        ejercicios7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios8 = (CardView) findViewById(R.id.espi);
+        ejercicios8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios9 = (CardView) findViewById(R.id.nalg);
+        ejercicios9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios10 = (CardView) findViewById(R.id.frontmus);
+        ejercicios10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios11 = (CardView) findViewById(R.id.postmus);
+        ejercicios11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView ejercicios12 = (CardView) findViewById(R.id.pant);
+        ejercicios12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EjerciciosActivity.this, EjerciciosEspaldaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
         LinearLayout detectGesture = findViewById(R.id.detectGesture);
         mDetector = new GestureDetector(this, new EjerciciosActivity.MyGestureListener());
 
