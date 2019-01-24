@@ -64,7 +64,8 @@ public class CalendarioActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent = new Intent(CalendarioActivity.this, LoginActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -100,7 +101,8 @@ public class CalendarioActivity extends AppCompatActivity
             Intent intent = new Intent(CalendarioActivity.this, MainActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage) {
-
+            Intent intent = new Intent(CalendarioActivity.this, AyudaActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_share) {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");

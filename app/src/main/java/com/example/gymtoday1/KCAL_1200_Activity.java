@@ -117,7 +117,8 @@ public class KCAL_1200_Activity extends AppCompatActivity
             Intent intent = new Intent(KCAL_1200_Activity.this, MainActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage) {
-
+            Intent intent = new Intent(KCAL_1200_Activity.this, AyudaActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_share) {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");

@@ -114,7 +114,8 @@ public class CrearNotaActivity extends AppCompatActivity
             Intent intent = new Intent(CrearNotaActivity.this, MainActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage) {
-
+            Intent intent = new Intent(CrearNotaActivity.this, AyudaActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_share) {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
